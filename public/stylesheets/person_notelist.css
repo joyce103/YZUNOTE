@@ -1,0 +1,1062 @@
+@media screen and (min-width: 1280px){
+    body{
+                
+        margin:0px;
+        
+        font-family: sans-serif;
+    }
+
+    #leftbar{
+        margin: 0px;
+        height: 2000px;
+        width:70%;
+        background-color: #efefefff;
+        float: left; 
+    }
+    #rightbar{
+        height: 2000px;
+        background-color: #8c9094;
+    }
+    #logo{
+        float: left;
+        width: 170px;
+        height: 170px;
+        margin-top:3%;
+        margin-left: 3%;
+        border-radius: 100%;
+        
+        background-color: #edb5bf
+        
+        
+    }
+    #rightbar1{
+        float: left;
+        height: 130px;
+        margin-top: 5%;
+        
+        margin-left:2%;
+        font-size: 25px;
+        color: white;
+
+    }
+    #rightbar2{
+        float:left;
+        margin-top: 20px;
+        margin-left: 10%;
+        width:15%;
+        text-align: center;
+        
+    }
+    #follow{
+        font-size: 16px;
+        float: left;
+        
+        color: white;
+    }
+    #follower{
+        font-size: 16px;
+        float: left;
+        margin-left: 3%;
+        color: white;
+
+    }
+    .rightbar3{
+        float: left;
+        margin-top: 50px;
+        margin-left:5%;
+        width: 260px;
+
+    }
+    .icon{
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        margin-left: 20px;
+        border-radius: 100%;
+        
+        background-color: white;
+    }
+    .text{
+        float: left;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 24px;
+        color: white;
+    }
+    #notelist1{
+        background-color:  #edb5bf;
+    }
+    
+		.content{
+			height: 170px;
+			width: 240px;
+			border:1px black solid;
+			margin-top: 15px;
+			margin-left: 25px;
+			/* margin-left: 250px; */
+			float: left; 
+			/* float:right ; */
+			/* clear: both; */
+			background-color: white;
+			z-index:1;
+    }
+    
+		#portrait{
+			margin-top: 10px;
+			margin-left: 10px;
+			height: 30px;
+			width: 30px;
+			/* border:1px black solid; */
+			float: left;
+			border-radius: 100%;
+		}
+		.name{
+			margin-left: 10px;
+			float: left;
+		}
+		#heart{
+			float: right;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+		.top{
+			height: 50px;
+			/*border:1px pink solid;*/
+		}
+		.center{
+			clear: both;
+			height: 80px;
+			margin-left: 10px;
+			overflow: hidden;
+/*			width: 240px;*/
+			/*border:1px pink solid;*/
+		}
+		.heading{
+			text-align: left;
+			float: left;
+			margin-left: 10px;
+		}
+
+		.date{
+			text-align: right;
+			float: right;
+			margin-right: 10px;
+			
+		}
+    #logout{
+        float: left;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+    }
+    #leftbar1{
+        
+    }
+    #title2{
+        
+        color:#5f6366;
+        float: left;
+        margin-left: 12%;
+        margin-top: 5%;
+        font-size: 40px;
+        width:70%;
+        
+    }
+    #add{
+        float: left;
+        font-size: 40px;
+        margin-top: 5%;
+        color: #5f6366;
+      
+    }
+    #leftbar1{
+        float: left;
+
+    }
+    #leftbar2{
+        float:left;
+        margin:5%; 
+        
+        margin-left: 10%;
+    }
+    .note{
+        float: left;
+        width:200px;
+        height:170px;
+        /*border-color: #5f6366;*/
+        border: solid 1px #5f6366;
+        margin:15px;
+    }
+    .curriculumtext{
+        border:0px;
+        width: 100px;
+        background-color: #efefefff;
+    }
+    .curriculumbtn{
+        float: left;
+        margin-bottom: 10px;
+    }
+    a:link{
+        color:white;
+        text-decoration: none;
+    }
+    a:visited{
+        color:white;
+        text-decoration: none;
+    }
+    a:hover{
+        color:white;
+        text-decoration: none;
+    }
+    a:active{
+        color:white;
+        text-decoration: none;
+    }
+    /* todolist */
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      h1{
+        color:#1F6866;
+        font-family:monospace;
+        font-size: 40px;
+        text-align: center;
+        padding: 5px;
+      }
+      h3{
+        padding: 5px;
+        font-size: 20px;
+        color: #5f6366;
+      }
+      .add{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__input{
+        width: 700px;
+        border: none;
+        border-bottom: 3px solid #EDD29F;
+        background-color: white;
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .wait,.done{
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__item,.wait__item,.done__item{
+        padding: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+      }
+      .wait__item__text,.done__item__text{
+        width: 80%;
+        word-break: break-all;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+      .wait__item__text__input{
+        width: 100%;
+        border:none;
+        background-color: inherit;
+        font-size: 18px;
+        border: 2px solid #EDD29F;
+        padding: 2px;
+      }
+      .wait__item__icons,.done__item__icons{
+        display: flex;
+      }
+      .wait__item__icons__modify,.wait__item__icons__trash,.wait__item__icons__done,.done__item__icons__trash,.done__item__icons__done{
+        margin: 5px 5px;
+      }
+      
+      i{
+        display: block;
+        font-size: 23px;
+        color:  rgb(134, 186, 190);
+      }
+      i:hover{
+        opacity: 0.7;
+      }
+
+   
+}
+ 
+@media screen and (min-width: 1000px) and (max-width: 1280px){
+    body{
+                
+        margin:0px;
+        
+        font-family: sans-serif;
+    }
+
+    #leftbar{
+        margin: 0px;
+        height: 2300px;
+        width:70%;
+        background-color: #efefefff;
+        float: left; 
+    }
+    #rightbar{
+        height: 2300px;
+        background-color: #8c9094;
+    }
+    #logo{
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin-top:3%;
+        margin-left: 3%;
+        border-radius: 100%;
+        
+        background-color: #edb5bf
+        
+        
+    }
+    #rightbar1{
+        float: left;
+        height: 130px;
+        margin-top: 5%;
+        
+        margin-left:2%;
+        font-size: 20px;
+        color: white;
+
+    }
+    #rightbar2{
+        float:left;
+        margin-top: 20px;
+        margin-left: 10%;
+        width:15%;
+        text-align: center;
+        
+    }
+    #follow{
+        font-size: 16px;
+        float: left;
+        
+        color: white;
+    }
+    #follower{
+        font-size: 16px;
+        float: left;
+        margin-left: 3%;
+        color: white;
+
+    }
+    .rightbar3{
+        float: left;
+        margin-top: 50px;
+        margin-left:5%;
+        width: 240px;
+
+    }
+    .icon{
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        margin-left: 20px;
+        border-radius: 100%;
+        
+        background-color: white;
+    }
+    .text{
+        float: left;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    #notelist1{
+        background-color:  #edb5bf;
+    }
+    
+		.content{
+			height: 170px;
+			width: 240px;
+			border:1px black solid;
+			margin-top: 10px;
+			margin-left: 15px;
+			float: left; 
+			background-color: white;
+    }
+		#portrait{
+			margin-top: 10px;
+			margin-left: 10px;
+			height: 30px;
+			width: 30px;
+			/* border:1px black solid; */
+			float: left;
+			border-radius: 100%;
+		}
+		.name{
+			margin-left: 10px;
+			float: left;
+		}
+		#heart{
+			float: right;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+		.top{
+			height: 50px;
+			/*border:1px pink solid;*/
+		}
+		.center{
+			clear: both;
+			height: 80px;
+			margin-left: 10px;
+/*			width: 240px;*/
+			/*border:1px pink solid;*/
+		}
+		.heading{
+			text-align: left;
+			float: left;
+			margin-left: 10px;
+		}
+
+		.date{
+			text-align: right;
+			float: right;
+			margin-right: 10px;
+		}
+    #logout{
+        float: left;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+    }
+    #leftbar1{
+        
+    }
+    #title2{
+        
+        color:#5f6366;
+        float: left;
+        margin-left: 12%;
+        margin-top: 5%;
+        font-size: 40px;
+        width:70%;
+        
+    }
+    #add{
+        float: left;
+        font-size: 40px;
+        margin-top: 5%;
+        color: #5f6366;
+      
+    }
+    #leftbar1{
+        float: left;
+
+    }
+    #leftbar2{
+        float:left;
+        margin:10%; 
+        text-align: center;
+        margin-left: 8%;
+    }
+    .note{
+        float: left;
+        width:250px;
+        height:170px;
+        /*border-color: #5f6366;*/
+        border: solid 1px #5f6366;
+        margin:15px;
+    }
+    .curriculumtext{
+        border:0px;
+        width: 70px;
+        background-color: #efefefff;
+    }
+    .curriculumbtn{
+        float: left;
+        margin-bottom: 10px;
+    }
+    /* todolist */
+    *{
+        padding: 0;
+        margin: 0;
+      }
+      h1{
+        color:#1F6866;
+        font-family:monospace;
+        font-size: 40px;
+        text-align: center;
+        padding: 5px;
+      }
+      h3{
+        padding: 5px;
+        font-size: 20px;
+        color: #5f6366;
+      }
+      .add{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__input{
+        width: 450px;
+        border: none;
+        border-bottom: 3px solid #EDD29F;
+        background-color: white;
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .wait,.done{
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__item,.wait__item,.done__item{
+        padding: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+      }
+      .wait__item__text,.done__item__text{
+        width: 80%;
+        word-break: break-all;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+      .wait__item__text__input{
+        width: 100%;
+        border:none;
+        background-color: inherit;
+        font-size: 18px;
+        border: 2px solid #EDD29F;
+        padding: 2px;
+      }
+      .wait__item__icons,.done__item__icons{
+        display: flex;
+      }
+      .wait__item__icons__modify,.wait__item__icons__trash,.wait__item__icons__done,.done__item__icons__trash,.done__item__icons__done{
+        margin: 5px 5px;
+      }
+      
+      i{
+        display: block;
+        font-size: 23px;
+        color:  rgb(134, 186, 190);
+      }
+      i:hover{
+        opacity: 0.7;
+      }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px){
+    body{
+                
+        margin:0px;
+        
+        font-family: sans-serif;
+    }
+
+    #leftbar{
+        margin: 0px;
+        height: 4000px;
+        width:70%;
+        background-color: #efefefff;
+        float: left; 
+    }
+    #rightbar{
+        height: 4000px;
+        background-color: #8c9094;
+    }
+    #logo{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-top:3%;
+        margin-left: 3%;
+        border-radius: 100%;
+        
+        background-color: #edb5bf
+        
+    }
+    #rightbar1{
+        float: left;
+        height: 130px;
+        margin-top: 5%;
+        
+        margin-left:2%;
+        font-size: 14px;
+        color: white;
+
+    }
+    #rightbar2{
+        float:left;
+        margin-top: 20px;
+        margin-left: 10%;
+        width:15%;
+        text-align: center;
+        
+    }
+    #follow{
+        font-size: 12px;
+        float: left;
+        
+        color: white;
+    }
+    #follower{
+        font-size: 12px;
+        float: left;
+        margin-left: 3%;
+        color: white;
+
+    }
+    .rightbar3{
+        float: left;
+        margin-top: 50px;
+        margin-left:5%;
+        width: 150px;
+
+    }
+    .icon{
+        float: left;
+        width: 20px;
+        height: 20px;
+        margin:10px;
+        margin-left: 10px;
+        border-radius: 100%;
+        
+        background-color: white;
+    }
+    .text{
+        float: left;
+        margin-left:10%;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 14px;
+        color: white;
+    }
+    #notelist1{
+        background-color:  #edb5bf;
+    }
+		.content{
+			height: 170px;
+			width: 240px;
+			border:1px black solid;
+			margin-top: 10px;
+			margin-left: 15px;
+			float: left; 
+			background-color: white;
+    }
+    
+		#portrait{
+			margin-top: 10px;
+			margin-left: 10px;
+			height: 30px;
+			width: 30px;
+			/* border:1px black solid; */
+			float: left;
+			border-radius: 100%;
+		}
+		.name{
+			margin-left: 10px;
+			float: left;
+		}
+		#heart{
+			float: right;
+			margin-top: 20px;
+			margin-right: 10px;
+		} 
+		.top{
+			height: 50px;
+			/*border:1px pink solid;*/
+		}
+		.center{
+			clear: both;
+			height: 80px;
+			margin-left: 10px;
+/*			width: 240px;*/
+			/*border:1px pink solid;*/
+		}
+		.heading{
+			text-align: left;
+			float: left;
+			margin-left: 10px;
+		}
+
+		.date{
+			text-align: right;
+			float: right;
+			margin-right: 10px;
+		}
+    #logout{
+        float: left;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+    }
+    #leftbar1{
+        
+    }
+    #title2{
+        
+        color:#5f6366;
+        float: left;
+        margin-left: 12%;
+        margin-top: 5%;
+        font-size: 40px;
+        width:70%;
+        
+    }
+    #add{
+        float: left;
+        font-size: 40px;
+        margin-top: 5%;
+        color: #5f6366;
+      
+    }
+    #leftbar1{
+        float: left;
+
+    }
+    #leftbar2{
+        float:left;
+        margin:50px; 
+        text-align: center;
+        margin-left: 8%;
+    }
+    .note{
+        float: left;
+        width:250px;
+        height:170px;
+        /*border-color: #5f6366;*/
+        border: solid 1px #5f6366;
+        margin:10px;
+    }
+    .curriculumtext{
+        border:0px;
+        width: 35px;
+        background-color: #efefefff;
+    }
+    .curriculumbtn{
+        float: left;
+        margin-bottom: 10px;
+    }
+    /* todolist */
+    *{
+        padding: 0;
+        margin: 0;
+      }
+      h1{
+        color:#1F6866;
+        font-family:monospace;
+        font-size: 40px;
+        text-align: center;
+        padding: 5px;
+      }
+      h3{
+        padding: 5px;
+        font-size: 20px;
+        color: #5f6366;
+      }
+      .add{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__input{
+        width: 350px;
+        border: none;
+        border-bottom: 3px solid #EDD29F;
+        background-color: white;
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .wait,.done{
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__item,.wait__item,.done__item{
+        padding: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+      }
+      .wait__item__text,.done__item__text{
+        width: 80%;
+        word-break: break-all;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+      .wait__item__text__input{
+        width: 100%;
+        border:none;
+        background-color: inherit;
+        font-size: 18px;
+        border: 2px solid #EDD29F;
+        padding: 2px;
+      }
+      .wait__item__icons,.done__item__icons{
+        display: flex;
+      }
+      .wait__item__icons__modify,.wait__item__icons__trash,.wait__item__icons__done,.done__item__icons__trash,.done__item__icons__done{
+        margin: 5px 5px;
+      }
+      
+      i{
+        display: block;
+        font-size: 23px;
+        color:  rgb(134, 186, 190);
+      }
+      i:hover{
+        opacity: 0.7;
+      }
+} 
+@media screen and (max-width: 720px) {
+    body{
+                
+        margin:0px;
+        
+        font-family: sans-serif;
+    }
+
+    #leftbar{
+        margin: 0px;
+        height: 1500px;
+        width:70%;
+        background-color: #efefefff;
+        float: left; 
+    }
+    #rightbar{
+        height: 1500px;
+        background-color: #8c9094;
+    }
+    #logo{
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-top:3%;
+        margin-left: 3%;
+        border-radius: 100%;
+        
+        background-color: #edb5bf
+        
+        
+    }
+    #rightbar1{
+        float: left;
+        height: 130px;
+        margin-top: 5%;
+        
+        margin-left:2%;
+        font-size: 10px;
+        color: white;
+
+    }
+    #rightbar2{
+        float:left;
+        margin-top: 10px;
+        margin-left: 7%;
+        width:15%;
+        text-align: center;
+       
+        
+    }
+    #follow{
+        font-size: 6px;
+        float: left;
+        
+        color: white;
+    }
+    #follower{
+        font-size: 6px;
+        float: left;
+        margin-left: 3%;
+        color: white;
+
+    }
+    .rightbar3{
+        float: left;
+        margin-top: 50px;
+        margin-left:3%;
+        width: 110px;
+
+    }
+    .icon{
+        float: left;
+        width: 10px;
+        height: 10px;
+        margin:10px;
+        margin-left: 20px;
+        border-radius: 100%;
+        
+        background-color: white;
+    }
+    .text{
+        float: left;
+        margin-left:2px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        color: white;
+    }
+    #notelist1{
+        background-color:  #edb5bf;
+    }
+    #logout{
+        float: left;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 10px;
+        color: white;
+    }
+    #leftbar1{
+        
+    }
+    #title2{
+        
+        color:#5f6366;
+        float: left;
+        margin-left: 12%;
+        margin-top: 5%;
+        font-size: 30px;
+        width:70%;
+        
+    }
+    #add{
+        float: left;
+        font-size: 40px;
+        margin-top: 5%;
+        color: #5f6366;
+      
+    }
+    #leftbar1{
+        float: left;
+
+    }
+    #leftbar2{
+        float:left;
+        margin:50px; 
+        text-align: center;
+        margin-left: 8%;
+    }
+    .note{
+        float: left;
+        width:250px;
+        height:170px;
+        /*border-color: #5f6366;*/
+        border: solid 1px #5f6366;
+        margin:10px;
+    }
+    .curriculumtext{
+        border:0px;
+        width: 10px;
+        background-color: #efefefff;
+    }
+    .curriculumbtn{
+        float: left;
+        margin-bottom: 10px;
+    }
+    /* todolist */
+    *{
+        padding: 0;
+        margin: 0;
+      }
+      h1{
+        color:#1F6866;
+        font-family:monospace;
+        font-size: 40px;
+        text-align: center;
+        padding: 5px;
+      }
+      h3{
+        padding: 5px;
+        font-size: 20px;
+        color: #5f6366;
+      }
+      .add{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__input{
+        width: 200px;
+        border: none;
+        border-bottom: 3px solid #EDD29F;
+        background-color: white;
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .wait,.done{
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 16px;
+      }
+      .add__item,.wait__item,.done__item{
+        padding: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+      }
+      .wait__item__text,.done__item__text{
+        width: 80%;
+        word-break: break-all;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+      .wait__item__text__input{
+        width: 100%;
+        border:none;
+        background-color: inherit;
+        font-size: 18px;
+        border: 2px solid #EDD29F;
+        padding: 2px;
+      }
+      .wait__item__icons,.done__item__icons{
+        display: flex;
+      }
+      .wait__item__icons__modify,.wait__item__icons__trash,.wait__item__icons__done,.done__item__icons__trash,.done__item__icons__done{
+        margin: 5px 5px;
+      }
+      
+      i{
+        display: block;
+        font-size: 23px;
+        color:  rgb(134, 186, 190);
+      }
+      i:hover{
+        opacity: 0.7;
+      }
+
+}
+

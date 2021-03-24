@@ -1,0 +1,221 @@
+/*------電腦-------*/
+@media screen and (min-width: 1024px){
+    body{
+        margin:0px;
+        background-color: #efefefff;
+        font-family: sans-serif;
+    }
+    #menu{
+        float: left;
+        width: 100%;
+        height: 85px;
+        background-color: #5f6366;
+    }
+    #title{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 35px;
+        color: #99ced3;
+        font-family: 'Concert One', cursive;
+        float: left;
+
+    }
+    #note_title{
+        color: #efefefff;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 34%;
+        height: 20px;
+/*----------字寬 要改---------*/
+        width: 130px;
+        float: left;
+    }
+    #logo{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-right: 15px;
+        border-radius: 100%;
+        border:1px black solid;
+    }
+    #underlogo{
+        height: 240px;
+        width: 100px;
+        background-color:#edb5bf;
+        float: right;
+        clear: both;
+        z-index:100;
+    }
+    #underlogo p{
+        text-align: center;
+    }
+    #note{
+        float: left;
+        border-style: solid;
+        border-color: #5f6366;
+        margin: 10px;
+        width: 950px;
+        height: 500px;
+    }
+    #select{
+        float: left;
+        margin: 10px;
+        font-size: 10px;
+    }
+    .save{
+        float: right;
+        margin: 10px;
+        font-size: 10px;
+    }
+    
+}
+
+/*------平板-------*/
+
+@media screen and (min-width:720px) and (max-width: 1024px){
+    body{
+        margin:0px;
+        background-color: #efefefff;
+        font-family: sans-serif;
+    }
+    #menu{
+        float: left;
+        width: 100%;
+        height: 85px;
+        background-color: #5f6366;
+    }
+    #title{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 35px;
+        color: #99ced3;
+        font-family: 'Concert One', cursive;
+        float: left;
+
+    }
+    #note_title{
+        color: #efefefff;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 30%;
+        height: 20px;
+/*----------字寬 要改---------*/
+        width: 130px;
+        float: left;
+    }
+    #logo{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-right: 15px;
+        border-radius: 100%;
+        border:1px black solid;
+    }
+    #underlogo{
+        height: 235px;
+        width: 100px;
+        background-color:#edb5bf;
+        float: right;
+        clear: both;
+        z-index:100;
+    }
+    #underlogo p{
+        text-align: center;
+    }
+    #note{
+        float: left;
+        border-style: solid;
+        border-color: #5f6366;
+        margin: 10px;
+        width: 950px;
+        height: 500px;
+    }
+    #select{
+        float: left;
+        margin: 10px;
+        font-size: 10px;
+        color: pink
+    }
+    .save{
+        float: right;
+        margin: 10px;
+        font-size: 10px;
+    }
+}
+
+/*------手機-------*/
+@media screen and (min-width:320px) and (max-width: 720px){
+    body{
+        margin:0%;
+        background-color: #efefefff;
+        font-family: sans-serif;
+    }
+    #menu{
+        float: left;
+        width: 100%;
+        height: 85px;
+        background-color: #5f6366;
+    }
+    #title{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 35px;
+        color: #99ced3;
+        font-family: 'Concert One', cursive;
+        float: left;
+    }
+    #note_title{
+        color: #efefefff;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 21%;
+        height: 20px;
+/* ----------字寬 要改--------- */
+        width: 130px;
+        float: left;
+    }
+    #logo{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-right: 15px;
+        border-radius: 100%;
+        border:1px black solid;
+    }
+    #note{
+        float: left;
+        border-style: solid;
+        border-color: #5f6366;
+        margin: 0%;
+        width: 0%;
+        height: 0%;
+    }
+    #select{
+        float: left;
+        margin: 10px;
+        font-size: 10px;
+        color: skyblue;
+    }
+    .save{
+        float: right;
+        margin: 10px;
+        font-size: 10px;
+    }
+    #underlogo{
+        height: 225px;
+        width: 80px;
+        background-color:#edb5bf;
+        float: right;
+        clear: both;
+        z-index:100;
+    }
+    #underlogo p{
+        text-align: center;
+    }
+}
